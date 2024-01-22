@@ -13,3 +13,16 @@ div.encabezado{
     width: 100%;
     height: auto;
 }
+
+div.menu ul li a{
+    background-color: #a77e58;
+    color: #ffffff;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 18px;
+    transition: background-color 0.3s;
+
+    text-decoration: none;
+}
+div.menu ul li a:hover {
+    background-color: #8b6f47; 
+}
