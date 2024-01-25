@@ -27,6 +27,15 @@ div img.logo {
     margin-right: 10px;
 }
 
+div.menu ul{
+    background-color: #a77e58;
+}
+div.menu ul li{
+    padding: 2px 9px;
+    border: solid 1px;
+    border-color: #5a3e36;
+}
+
 div.menu ul li a{
     background-color: #a77e58;
     color: #ffffff;
@@ -36,9 +45,12 @@ div.menu ul li a{
 
     text-decoration: none;
 }
-div.menu ul li a:hover {
-    background-color: #8b6f47; 
+
+div.menu ul li a:hover, div.menu ul li:hover {
+    background-color: #5a3e36; 
 }
+
+
 div.contenido{
     background-color: #fff8f0;
     color: #5a3e36;
@@ -59,13 +71,15 @@ div.pie{
     text-align: center;
     
 }
+ul li{
+    display: inline-block;
+}
 div.pie ul{
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
 }
 div.pie li{
-    display: inline-block;
     margin-right: 20px;
 }
 div.pie ul li a{
