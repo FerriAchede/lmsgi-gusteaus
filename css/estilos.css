@@ -56,13 +56,30 @@ div.contenido{
     color: #5a3e36;
     font-family: 'Georgia', serif;
     font-size: 18px;
+
+    float: left;
+    width: 70%;
+    /*padding: 15px 20px 15px 20px;*/
+    text-align: auto
+}
+div.contenido h1{
+    border-bottom: 2px solid #a77e58;
 }
 div.sidebar{
     background-color: #ecdcc6;
     color: #5a3e36;
     font-family: 'Georgia', serif;
     font-size: 18px;
+
+    float: right;
+    width: 25%;
+    /*padding: 15px 20px 15px 20px;*/
+
 }
+div.sidebar h2{
+    border-bottom: 2px solid #a77e58;
+}
+
 div.pie{
     background-color: #5a3e36;
     color: #ecdcc6;
