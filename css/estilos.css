@@ -26,3 +26,9 @@ div.menu ul li a{
 div.menu ul li a:hover {
     background-color: #8b6f47; 
 }
+div.contenido{
+    background-color: #fff8f0;
+    color: #5a3e36;
+    font-family: 'Georgia', serif;
+    font-size: 18px;
+}
