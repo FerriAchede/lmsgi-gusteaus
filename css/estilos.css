@@ -45,6 +45,10 @@ div.menu ul li a{
 
     text-decoration: none;
 }
+div.menu ul li{
+    transition: background-color 0.3s;
+
+}
 
 div.menu ul li a:hover, div.menu ul li:hover {
     background-color: #5a3e36; 
@@ -59,12 +63,14 @@ div.contenido{
 
     float: left;
     width: 70%;
-    /*padding: 15px 20px 15px 20px;*/
-    text-align: auto
+    padding: 15px 20px 15px 20px;
+    text-align: auto;
+    
 }
 div.contenido h1{
     border-bottom: 2px solid #a77e58;
 }
+
 div.sidebar{
     background-color: #ecdcc6;
     color: #5a3e36;
@@ -72,21 +78,22 @@ div.sidebar{
     font-size: 18px;
 
     float: right;
-    width: 25%;
-    /*padding: 15px 20px 15px 20px;*/
+    width: 30%;
+    padding: 15px 20px 15px 20px;
 
 }
 div.sidebar h2{
     border-bottom: 2px solid #a77e58;
 }
-
+div.sidebar, div.contenido {
+    box-sizing: border-box;
+  }
 div.pie{
     background-color: #5a3e36;
     color: #ecdcc6;
     font-size: 'Helvetica', sans-serif;
     font-size: 16px;
     text-align: center;
-    
 }
 ul li{
     display: inline-block;
@@ -103,3 +110,30 @@ div.pie ul li a{
     text-decoration: none;
     color: #ecdcc6;
 }
+
+div.reserva{
+    margin-top: 350px;
+    padding: 15px 20px 15px 20px;
+    color: #5a3e36;
+}
+div.reserva label{
+    font-size: 16px;
+    display: block;
+}
+input[type='text'], input[type='email'], input[type='tel'], input[type='number'], input[type="datetime-local"], #comentarios{
+    border: solid 1px #a77e58;
+    padding: 10px;
+    border-radius: 5px;
+    background: #fff8f0;
+}
+input[type='submit']{
+    background-color: #5a3e36;
+    color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: flex;
+}
+input[type='submit']:hover{
+    background-color: #a77e58;
+}
+
