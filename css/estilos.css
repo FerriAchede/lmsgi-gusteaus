@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 #contenedor {
     background-color: #fff8f0;
     font-family: 'Times New Roman', Times, serif;
@@ -9,10 +14,17 @@ div.encabezado{
     font-family: Georgia, serif;
     font-size: 36px;
     text-align: center;
+    background-position: center; 
     background-position-y: bottom;
     width: 100%;
     height: auto;
     line-height: 2;
+
+}
+div img.logo {
+    position: absolute;
+    width: 72px; 
+    margin-right: 10px;
 }
 
 div.menu ul li a{
