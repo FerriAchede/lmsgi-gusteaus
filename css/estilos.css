@@ -9,9 +9,10 @@ div.encabezado{
     font-family: Georgia, serif;
     font-size: 36px;
     text-align: center;
-    background-size: cover;
+    background-position-y: bottom;
     width: 100%;
     height: auto;
+    line-height: 2;
 }
 
 div.menu ul li a{
