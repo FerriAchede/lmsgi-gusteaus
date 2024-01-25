@@ -52,9 +52,23 @@ div.sidebar{
     font-size: 18px;
 }
 div.pie{
-    background-color: #a77e58;
-    color: #ffffff;
+    background-color: #5a3e36;
+    color: #ecdcc6;
     font-size: 'Helvetica', sans-serif;
     font-size: 16px;
     text-align: center;
+    
+}
+div.pie ul{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+div.pie li{
+    display: inline-block;
+    margin-right: 20px;
+}
+div.pie ul li a{
+    text-decoration: none;
+    color: #ecdcc6;
 }
