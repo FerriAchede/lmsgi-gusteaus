@@ -8,7 +8,12 @@
 </head>
 <body>
     <div id="contenedor">
-        <div class="encabezado">Restaurante Gusteau's</div>
+        <img src="imgs/favicon.png" alt="Logo Gusteau's" class="logo">
+        <div class="encabezado">
+            
+            Restaurante Gusteau's
+        </div>
+        
         <div class="menu">
             <ul>
                 <li><a href="#inicio">Inicio</a></li>
@@ -17,6 +22,7 @@
                 <li><a href="#reservas">Reservas</a></li>
                 <li><a href="#contacto">Contacto</a></li>
             </ul>
+            
         </div>
         <div class="contenido">
             <h1>Bienvenidos a Gusteau's</h1>
@@ -43,7 +49,39 @@
                 <li>Clases de Cocina con Chefs Expertos</li>
             </ul>
         </div>
-        <div class="pie">© 2024 Restaurante Gusteau's - París, Francia</div>
+        <div class="reserva">
+            <h2>Reserva</h2>
+            <form action="/index.html" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+        
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+        
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" required>
+        
+                <label for="num_personas">Número de Personas:</label>
+                <input type="number" id="num_personas" name="num_personas" min="1"  required>
+        
+                <label for="fecha_hora">Fecha y Hora de la Reserva:</label>
+                <input type="datetime-local" id="fecha_hora" name="fecha_hora"  required>
+                
+                <label for="comentarios">Comentarios o Peticiones Especiales:</label>
+                <textarea id="comentarios" name="comentarios" rows="2"></textarea>        
+
+                <input type="submit" value="Reservar Mesa">
+        
+            </form>
+        </div>
+        <div class="pie">
+            <ul>
+                <li><a href="#sobrenosotros">Sobre Nosotros</a></li>
+                <li><a href="#menu">Menú</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+            © 2024 Restaurante Gusteau's - París, Francia
+        </div>
     </div>
 </body>
 </html>

@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#contenedor,#menu-estrella {
+    background-color: #fff8f0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+div.encabezado{
+    background-image: url(../imgs/guesteaus.png);
+    background-color: #5a3e36;
+    font-family: Georgia, serif;
+    font-size: 36px;
+    text-align: center;
+    background-position: center; 
+    background-position-y: bottom;
+    width: 100%;
+    height: auto;
+    line-height: 2;
+
+}
+img.logo {
+    position: absolute;
+    width: 72px; 
+    margin-right: 10px;
+}
+
+div.menu ul, nav.menu ul{
+    background-color: #a77e58;
+}
+div.menu ul li, nav.menu ul li{
+    padding: 2px 9px;
+    border: solid 1px;
+    border-color: #5a3e36;
+}
+
+div.menu ul li a, nav.menu ul li a{
+    background-color: #a77e58;
+    color: #ffffff;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 18px;
+    transition: background-color 0.3s;
+
+    text-decoration: none;
+}
+div.menu ul li, nav.menu ul li{
+    transition: background-color 0.3s;
+
+}
+
+div.menu ul li a:hover, div.menu ul li:hover, nav.menu ul li a:hover, nav.menu ul li:hover {
+    background-color: #5a3e36; 
+}
+
+
+div.contenido, section.menu-estrella{
+    background-color: #fff8f0;
+    color: #5a3e36;
+    font-family: 'Georgia', serif;
+    font-size: 18px;
+
+    float: left;
+    width: 70%;
+    padding: 15px 20px 15px 20px;
+    text-align: auto;
+    
+}
+div.contenido h1{
+    border-bottom: 2px solid #a77e58;
+}
+
+div.sidebar{
+    background-color: #ecdcc6;
+    color: #5a3e36;
+    font-family: 'Georgia', serif;
+    font-size: 18px;
+
+    float: right;
+    width: 30%;
+    padding: 15px 20px 15px 20px;
+
+}
+div.sidebar h2{
+    border-bottom: 2px solid #a77e58;
+}
+div.sidebar, div.contenido {
+    box-sizing: border-box;
+  }
+div.pie, footer.pie{
+    background-color: #5a3e36;
+    color: #ecdcc6;
+    font-size: 'Helvetica', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+
+    clear: both;
+}
+ul li{
+    display: inline-block;
+}
+div.pie ul,footer.pie ul{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+div.pie li, footer.pie li{
+    margin-right: 20px;
+}
+div.pie ul li a, footer.pie ul li a{
+    text-decoration: none;
+    color: #ecdcc6;
+}
+
+div.reserva{
+    margin-top: 350px;
+    padding: 15px 20px 15px 20px;
+    color: #5a3e36;
+}
+div.reserva label{
+    font-size: 16px;
+    display: block;
+}
+input[type='text'], input[type='email'], input[type='tel'], input[type='number'], input[type="datetime-local"], #comentarios{
+    border: solid 1px #a77e58;
+    padding: 10px;
+    border-radius: 5px;
+    background: #fff8f0;
+}
+input[type='submit']{
+    background-color: #5a3e36;
+    color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: flex;
+}
+input[type='submit']:hover{
+    background-color: #a77e58;
+}
+
+section.menu-estrella h2, div.contenido h2, div.contenido h3 {
+    padding-top: 10px;
+}
+
+li[data-alergenos] {
+    display: flex;
+    padding: 2px 0;
+
+}
+li[data-alergenos]:hover {
+    color: #a77e58;
+}
+header {
+    color: #5a3e36;
+    text-align: center;
+    padding: 10px 0px 5px;
+}
+ol.alergenos-lista li{
+    margin-left: 30px;
+}
+li[data-alergenos*="nueces"]::before {
+    content: '🌰';
+}
+
+li[data-alergenos*="mariscos"]::before, li[data-alergenos*="crustáceos"]::before {
+    content: '🦐';
+}
+
+
+li[data-alergenos*="frutos-secos"]::before {
+    content: '🥜';
+}
+
+li[data-alergenos*="lactosa"]::before {
+    content: '🥛';
+}
+
+li[data-alergenos*="huevo"]::before {
+    content: '🥚';
+}
+
+li[data-alergenos*="frutas-con-cascara"]::before {
+    content: '🍎';
+}
